@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="peakGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pipeCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="pipeAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="pipeGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Mountain Peaks Icon with Underground Cutaway -->
+  <g transform="translate(10, 10)">
+    <!-- Mountain Background silhouette -->
+    <polygon points="50,10 95,90 5,90" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <polygon points="30,30 65,90 -5,90" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <polygon points="70,25 105,90 35,90" fill="#0f172a" opacity="0.6"/>
+
+    <!-- Snow caps -->
+    <polygon points="50,10 62,35 55,30 50,38 42,32 38,36" fill="#e2e8f0"/>
+    <polygon points="30,30 38,48 33,45 30,50 24,46" fill="#cbd5e1"/>
+
+    <!-- Ground Cutaway Level -->
+    <line x1="0" y1="58" x2="100" y2="58" stroke="#475569" stroke-width="2" stroke-dasharray="4,2"/>
+    <rect x="0" y="58" width="100" height="34" fill="#0b1324" fill-opacity="0.85" rx="3"/>
+
+    <!-- Underground glowing pipelines -->
+    <!-- Water pipe (Cyan) -->
+    <path d="M 5,66 L 35,66 L 50,74 L 95,74" fill="none" stroke="url(#pipeCyan)" stroke-width="3.5" filter="url(#glow)"/>
+    <!-- Sewer pipe (Green) -->
+    <path d="M 5,82 L 45,82 L 60,86 L 95,86" fill="none" stroke="url(#pipeGreen)" stroke-width="3" filter="url(#glow)"/>
+    <!-- Power/Telecom (Amber) -->
+    <path d="M 15,70 L 30,70 L 40,63 L 85,63" fill="none" stroke="url(#pipeAmber)" stroke-width="2" filter="url(#glow)"/>
+
+    <!-- Joint nodes -->
+    <circle cx="35" cy="66" r="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+    <circle cx="50" cy="74" r="3" fill="#e0f2fe" stroke="#0284c7" stroke-width="1.5"/>
+    <circle cx="45" cy="82" r="2.5" fill="#d1fae5" stroke="#059669" stroke-width="1.5"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="125" y="58" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="900" font-size="42" fill="#f8fafc" letter-spacing="-0.5">
+    Terra<tspan fill="#38bdf8">Flow</tspan>
+  </text>
+  <rect x="340" y="32" width="60" height="20" rx="4" fill="#0284c7" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1"/>
+  <text x="370" y="46" font-family="system-ui" font-size="11" font-weight="700" fill="#38bdf8" text-anchor="middle">3D GIS</text>
+
+  <text x="126" y="82" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="500" font-size="13" fill="#94a3b8" letter-spacing="1.2">
+    SUBTERRANEAN DIGITAL TWIN &amp; AI RISK INTELLIGENCE
+  </text>
+  <text x="126" y="98" font-family="system-ui" font-size="11" fill="#0ea5e9" font-weight="600">
+    Himalayan Urban Infrastructure Resilience Platform
+  </text>
+</svg>

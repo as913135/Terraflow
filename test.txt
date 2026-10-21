@@ -1,0 +1,4 @@
+TerraFlow - Subterranean 3D Digital Twin & AI Risk Intelligence Platform
+========================================================================
+To run the prototype:
+Double-click "start_terraflow.bat" or open "index.html" directly in any modern browser!

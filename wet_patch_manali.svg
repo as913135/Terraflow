@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <rect width="400" height="300" fill="#1e293b"/>
+  <!-- Mountain road pavement -->
+  <polygon points="50,280 150,120 250,120 350,280" fill="#334155"/>
+  <!-- Wet patch dark puddle -->
+  <ellipse cx="200" cy="220" rx="90" ry="35" fill="#0369a1" opacity="0.8"/>
+  <ellipse cx="195" cy="218" rx="60" ry="20" fill="#38bdf8" opacity="0.6"/>
+  <!-- Water ripples -->
+  <circle cx="195" cy="218" r="15" fill="none" stroke="#e0f2fe" stroke-width="2" opacity="0.7"/>
+  <circle cx="195" cy="218" r="28" fill="none" stroke="#e0f2fe" stroke-width="1.5" opacity="0.4"/>
+  <!-- Text Tag -->
+  <rect x="20" y="20" width="220" height="34" rx="6" fill="#0f172a" fill-opacity="0.85"/>
+  <text x="32" y="42" font-family="system-ui" font-size="13" font-weight="bold" fill="#38bdf8">💧 Surface Water Seepage</text>
+  <text x="30" y="270" font-family="system-ui" font-size="11" fill="#94a3b8">Mall Road Taxi Stand, Manali (32.2386, 77.1882)</text>
+</svg>
